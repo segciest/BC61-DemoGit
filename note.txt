@@ -7,3 +7,8 @@
 7. Lệnh giúp clone ( lấy một bản sao) một dự án từ trên github về máy tính: git clone (url của remote repo)
 8. Lệnh giúp lấy sự thay đổi mới nhất từ remote repo  về máy tính: git pull origin (tên nhánh trên remote repo)
 9. Sử dụng lệnh git --help để tìm các lệnh có sẵn
+
+//branch
+10. Lệnh tạo nhánh mới : git branch (tên nhánh mới)
+11. Lệnh giúp chuyển nhánh: git checkout (tên nhánh muốn chuyển)
+11. Lệnh giúp tạo nhánh mới và chuyển qua nhánh mới: git checkout -b (tên nhánh mới)
