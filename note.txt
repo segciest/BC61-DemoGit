@@ -1,6 +1,6 @@
 1. Khởi tạo thư mục dự án thành localRepository: git init
-2. Sử dụng lệnh để đưa các file và các sự thay đổi lên khu vực staging area: git add "tên thư mục" - đẩy từng file hoặc "git add ." - đẩy tất cả file
-3. Lệnh giúp kiểm tra các file đã được đẩy lên staging area
+2. Sử dụng lệnh để đưa các file và các sự thay đổi lên khu vực staging area: git add "tên thư mục" - đẩy từng file hoặc "git add ." - đẩy tất cả file hoặc git add -A
+3. Lệnh giúp kiểm tra các file đã được đẩy lên staging area: git status
 4. Lệnh giúp tạo phiên bản quản lí các sự thay đổi đã xảy ra , git commit -m "text- nội dung lời nhắn"
 5. Lệnh giúp kết nối remote repo với local repo: git remote add origin (url của remote repo)
 6. Lệnh giúp ddaayr code từ local repo lên remote repo: 2 trường hợp xảy ra, nếu là lần đầu tiên từ local repo đẩy lên github thì sẽ là git push -u origin (tên nhánh: main hoặc master) , trường hợp 2 là git push
